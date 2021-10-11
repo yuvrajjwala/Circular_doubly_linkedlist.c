@@ -21,7 +21,7 @@ void display(struct node * head){
     } while (ptr!=head);
 
     printf("\nnext node of last node is : %d ",ptr->data);
-    
+    //You can check by running last node next.
 }
 
 void insertAtFirst(struct node * head , struct node * temp){
